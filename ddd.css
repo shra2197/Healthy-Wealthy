@@ -1,0 +1,108 @@
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+#d1{
+background-color:#29DEF0 ;
+height:10%;
+}
+h1{
+float:center;
+color:red;
+font: bold 130% Times new roman;
+    width: 15.5em; 
+    margin: 1em 1em;
+    white-space: nowrap;
+   overflow: hidden;
+    -webkit-animation: typing 2s steps(21, end),
+     blink-caret .5s step-end infinite alternate;
+}
+h2{
+color:black;
+}
+span{
+color:red;
+}
+h3{
+text-align:left;
+line-height:50px;
+color:blue;
+}
+img{
+float:left;
+}
+
+#d1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #29DEF0 ;
+}
+.bg{
+background-color:#29DEF0;
+}
+#d1 li {
+    float: left;
+}
+
+#d1 li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+.c1{
+float:left;
+}
+
+.c2{
+margin-right:150px;
+float:right;
+}
+
+
+#diabeties ul,ol{
+font-size:30px;
+line-height:40px;
+}
+
+#diabeties 
+{
+height:100%;
+position:relative;
+background-color:#641E16;
+color:yellow;
+}
+
+#fever
+{
+height:100%;
+position:relative;
+background-color:#641E16  ;
+color:yellow;
+}
+#fever ul,ol{
+font-size:30px;
+line-height:40px;
+}
+
+#bp
+{
+height:100%;
+position:relative;
+background-color:#0D2F47;
+color:#D6EAF8;
+}
+
+#bp ul,ol{
+font-size:30px;
+line-height:40px;
+}
