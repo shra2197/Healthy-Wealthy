@@ -1,6 +1,11 @@
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
 
+img { max-width: 100%; }
 #d1{
 background-color:#29DEF0 ;
 height:10%;
